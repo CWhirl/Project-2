@@ -1,7 +1,7 @@
-<<<<<<< HEAD
+
 header, .event:not(:last-child) {
   border-bottom: 1px solid #ccc;
-=======
+
 #bg {
   position: fixed; 
   top: -50%; 
@@ -9,7 +9,6 @@ header, .event:not(:last-child) {
   width: 200%; 
   height: 200%;
   
->>>>>>> main
 }
 #bg img {
   position: absolute; 
