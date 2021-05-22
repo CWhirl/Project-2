@@ -15,7 +15,7 @@ router.get('/', async (req, res) => {
     });
 
     // Serialize data so the template can read it
-    const event = eventData.map((event) => event.get({ plain: true }));
+    const events = eventData.map((event) => event.get({ plain: true }));
 
     // Pass serialized data and session flag into template
     res.render('homepage', { 
@@ -49,7 +49,7 @@ router.get('/event/:id', async (req, res) => {
   }
 });
 
-// Use withAuth middleware to prevent access to route
+// Use withAuth middleware to prvent access to route
 router.get('/profile', withAuth, async (req, res) => {
   try {
     // Find the logged in user based on the session ID
