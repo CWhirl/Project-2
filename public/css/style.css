@@ -1,24 +1,57 @@
-header, .project:not(:last-child) {
-  border-bottom: 1px solid #ccc;
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  
 }
-
-.no-button {
-  background: none;
-  border: none;
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+  
+}
+.custom-bg {
+    z-index: -1;
+}
+header ul {
+  list-style-type: none;
+  margin: 0;
   padding: 0;
-  cursor: pointer;
-  color: #1b89bc;
+  overflow: hidden;
+  background-color: #333;
+  
+}
+
+header li {
+  float: left;
+}
+
+header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  font-size: 100%;
 }
-
-.no-button:hover {
-  color: #065b83;
-  text-decoration: underline;
+.goRight{
+    float: right;
 }
-
-.dollar-amount {
-  color: #056605;
-  font-weight: bold;
-  margin-left: -5px;
+header li a:hover {
+    text-decoration: none;
+    color: white;
 }
+  .custom-nav{
+      background-color:transparent;
+  }
+ .custom-font {
+      font-size: 35px ;
+      color:#9dfe6c;
+      -webkit-text-stroke: .75px black;
+  } 
