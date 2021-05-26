@@ -1,8 +1,10 @@
-//global variables
+
+//global variables   
 var testingIGuess
 
 
 //this is for the date picker
+
 
 $(document).ready(function(){
     var date_input=$('input[name="date"]'); //our date input has the name "date"
@@ -15,7 +17,9 @@ $(document).ready(function(){
     };
     date_input.datepicker(options);
   })
+
   //modal //
+
 $('#exampleModal').on('show.bs.modal', function (event) {
     var button = $(event.relatedTarget) // Button that triggered the modal
     var recipient = button.data('whatever') // Extract info from data-* attributes
@@ -24,9 +28,14 @@ $('#exampleModal').on('show.bs.modal', function (event) {
     var modal = $(this)
     modal.find('.modal-title').text('New message')
     modal.find('.modal-body input').val(recipient)
+
     $('#message-text').val('')
   })
   //posting modal data to page
+=======
+    
+  })
+
   function modalPost() {
     titleBox = $.trim($("#title-name").val());
     messageBox = $.trim($("#message-text").val());
@@ -34,6 +43,7 @@ $('#exampleModal').on('show.bs.modal', function (event) {
     
     console.log(titleBox)
     console.log(messageBox)
+
     // images for posted modal data.
   postNoteImageArray= [
     './assets/img/flatgreen.png', 
@@ -88,4 +98,8 @@ $('#exampleModal').on('show.bs.modal', function (event) {
 
 //     return this;
 // };
+
+=======
+    $('#formOutput').append(`<div> <h1> ${titleBox} </h1> <p> ${dateBox}</p> <p> ${messageBox} </p> </div>`)
+  }
 
