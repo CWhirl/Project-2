@@ -1,3 +1,5 @@
+//this is for the date picker//
+
 $(document).ready(function(){
     var date_input=$('input[name="date"]'); //our date input has the name "date"
     var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
@@ -9,6 +11,7 @@ $(document).ready(function(){
     };
     date_input.datepicker(options);
   })
+  //modal //
 $('#exampleModal').on('show.bs.modal', function (event) {
     var button = $(event.relatedTarget) // Button that triggered the modal
     var recipient = button.data('whatever') // Extract info from data-* attributes
@@ -19,6 +22,7 @@ $('#exampleModal').on('show.bs.modal', function (event) {
     modal.find('.modal-body input').val(recipient)
     
   })
+  //posting modal data to page//
   function modalPost() {
     titleBox = $.trim($("#title-name").val());
     messageBox = $.trim($("#message-text").val());
