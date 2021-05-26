@@ -1,14 +1,19 @@
 [
   {
-    "event": "World Domination @ Planet Earth",
+    "event": "Planet Earth",
+    "description": "World Domination ",
     "user_id": "richard_tater"
   },
   {
-    "event": "Ride bikes in the park @ Big Adventure Park",
-    "user_id": "PeeWee123"
+    "event": "Big Adventure Park",
+    "description": "Ride bikes in the park",
+    "user_id": "richard_tater"
+    
   },
   {
-    "event": "Roll 'Em Up @ Hollywood Star Lanes",
-    "user_id": "TheDudeMan"
+    "event": "Hollywood Star Lanes",
+    "description": "Roll 'Em Up ",
+    "user_id": "richard_tater"
+
   }
 ]
