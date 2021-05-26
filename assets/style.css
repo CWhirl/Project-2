@@ -55,3 +55,8 @@
         color:#9dfe6c;
         -webkit-text-stroke: .75px black;
     } 
+    #postedForm{
+      padding: 5px;
+      margin: 5px;
+      
+    }
