@@ -1,4 +1,4 @@
-const { Model, DataTypes } = require('sequelize');
+const { Model, DataTypes, DATEONLY } = require('sequelize');
 const sequelize = require('../config/connection');
 
 class Project extends Model {}
@@ -19,14 +19,9 @@ Project.init(
       type: DataTypes.STRING,
     },
     date_created: {
-      type: DataTypes.DATE,
+      type: DataTypes.DATEONLY,
       allowNull: false,
-      defaultValue: DataTypes.NOW,
-    },
-    needed_funding: {
-      type: DataTypes.FLOAT,
-      allowNull: false,
-      defaultValue: DataTypes.NOW,
+      defaultValue: DataTypes.STRING
     },
     user_id: {
       type: DataTypes.INTEGER,

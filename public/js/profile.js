@@ -3,12 +3,12 @@ const newFormHandler = async (event) => {
 
   const name = document.querySelector('#project-name').value.trim();
   const description = document.querySelector('#project-desc').value.trim();
-  
+  const date_created = document.querySelector('#project-date').value.trim();
 
-  if (name && description) {
-    const response = await fetch(`/api/rsvp`, {
+  if (name && description && date_created) {
+    const response = await fetch(`/api/projects`, {
       method: 'POST',
-      body: JSON.stringify({ name, description }),
+      body: JSON.stringify({ name, description, date_created}),
       headers: {
         'Content-Type': 'application/json',
       },
@@ -44,6 +44,6 @@ document
   .querySelector('.new-project-form')
   .addEventListener('submit', newFormHandler);
 
-document
-  .querySelector('.project-list')
-  .addEventListener('click', delButtonHandler);
+// document
+//   .querySelector('.project-list')
+//   .addEventListener('click', delButtonHandler);

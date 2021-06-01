@@ -1,17 +1,20 @@
 [
   {
     "name": "Bike Ride",
-    "description": "At Big Adventure Park! 5:00pm on the dot be there of be square AHA! ps Francis isn't aloud.",
-    "rsvp": 0
-  },
+    "description": "At Big Adventure Park! 5:00pm on the dot be there or be square AHA! P.S Francis isn't allowed.",
+    "rsvp": 0,
+    "date_created": "2021-07-09"
+  },  
   {
-    "name": "Bike Ride",
-    "description": "At Big Adventure Park! 5:00pm on the dot be there of be square AHA! ps Francis isn't aloud.",
-    "rsvp": 20
+    "name": "Larping in the Park",
+    "description": "We are meeting at Washington Park and having a gigantic larp sesh, invite all your friends",
+    "rsvp": 1000000,
+    "date_created": "2021-04-10"
   },
   {
     "name": "Roll 'Em Up",
     "description": "Meet up at Hollywood Star Lanes",
-    "rsvp": 5
+    "rsvp": 5,
+    "date_created": "2021-06-13"
   }
 ]
