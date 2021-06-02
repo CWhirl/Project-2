@@ -23,14 +23,8 @@ A demo for this app that you can view on this link:
 <br>
 <br>
 
-### Original HTML  Code
-![screenshot](insert_image)
-
-<br>
-<br>
-
 ### Original CSS  Code
-![screenshot](insert_image)
+![screenshot](assets/img/CSSthumb.JPG)
 
 <br>
 <br>
@@ -38,30 +32,52 @@ A demo for this app that you can view on this link:
 ### Original Java Script Code:
 
 #### Screenshot of models
-![screenshot](insert_image)
+![screenshot](assets/img/modelthumb.JPG)
 <br>
 <br>
 
 #### Screenshot of controllers
-![screenshot](insert_image)
+![screenshot](assets/img/controllerthumb.JPG)
 <br>
 <br>
 
 #### Screenshot of seeds
-![screenshot](insert_image)
+![screenshot](assets/img/seedthumb.JPG)
+
+<br>
+<br>
+
+#### Screenshot of schema
+![screenshot](assets/img/schemathumb.JPG)
 
 <br>
 <br>
 
 #### Screenshot of handlebars
-![screenshot](insert_image)
+![screenshot](assets/img/handlebarthumb.JPG)
 
 <br>
 <br>
 
-#### Screenshot of app landing page
+#### Screenshots of app 
 
-![screenshot](insert_image)
+![screenshot](assets/img/logo.jpg)
+<br>
+<br>
+
+![screenshot](assets/img/landing.JPG)
+<br>
+<br>
+
+![screenshot](assets/img/createevent.JPG)
+<br>
+<br>
+
+![screenshot](assets/img/newevent.JPG)
+<br>
+<br>
+
+![screenshot](assets/img/event.JPG)
 <br>
 <br>
 
