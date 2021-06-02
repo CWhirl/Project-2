@@ -4,7 +4,7 @@ We wanted to creat an app where the user is able to interactively plan events as
 in the form of sticky notes. The user can then invite others and find similar events that fit their interest. A safe place where everyone can be friends and hangout!
 
 A demo for this app that you can view on this link:
- [keep it sticky](insert app address here)
+ [Stick it to em'](https://boiling-garden-97737.herokuapp.com/)
 
 <br>
 <br>
