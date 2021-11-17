@@ -1,0 +1,1 @@
+// const{ConnectionError:ConnectionError}=require("sequelize"),Sequelize=require("sequelize");require("dotenv").config();let sequelize;sequelize=process.env.JAWSDB_URL?new Sequelize(process.env.JAWSDB_URL):new Sequelize(process.env.DB_NAME,process.env.DB_USER,process.env.DB_PASSWORD,{host:"localhost",dialect:"mysql",port:3306}),connection.connect(),module.exports=sequelize;
