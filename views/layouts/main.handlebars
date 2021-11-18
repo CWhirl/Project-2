@@ -15,23 +15,23 @@
       <h1>
         {{!-- <span role="img" aria-label="money"></span>
         <a href="/">Stick It To Em</a> --}}
-        <a class="active" href="/"><img src="../../public/img/keepit.png"></a>
+        <a class="active" href="/"><img src="./img/keepit.png"></a>
       </h1>
         <!-- Conditionally render login or logout links -->
          <nav>
         {{#if logged_in}}
-        <a class="no-button" href="/profile"><img src="../../public/img/account.png"></a> 
-        <a class="no-button" href="/" id="logout"><img src="../../public/img/LOGOUT.png"></a>
+        <a class="no-button" href="/profile"><img src="./img/account.png"></a> 
+        <a class="no-button" href="/" id="logout"><img src="./img/LOGOUT.png"></a>
           {{else}}
         {{!-- <a href="/login">login</a> --}}
-         <a class="custom-font"class="goRight" href="/login"><img src="../../public/img/LOGIN.png"></a>
-         <a class="custom-font"class="goRight" href="/signup"><img src="../../public/img/signup.png"></a>
+         <a class="custom-font"class="goRight" href="/login"><img src="./img/LOGIN.png"></a>
+         <a class="custom-font"class="goRight" href="/signup"><img src="./img/signup.png"></a>
        </nav>
         {{/if}}
     </header>
     <main class="container container-fluid mt-5">
       <div class="custom-bg" id="bg">
-        <img importance="low" src="../../public/img/corkboard.jpg" alt="bg-image">
+        <img importance="low" src="./img/corkboard.jpg" alt="bg-image">
     </div>
 {{#if logged_in}}
 <div class="text-center">
