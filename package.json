@@ -1,6 +1,10 @@
 {
   "name": "crowd-funding",
   "version": "1.0.0",
+  "engines": {
+    "node": "17.0.1",
+    "npm": "6.14.13"
+  },
   "description": "",
   "main": "server.js",
   "scripts": {
