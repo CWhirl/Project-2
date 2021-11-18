@@ -1,7 +1,6 @@
 const User = require('./User');
 const Project = require('./Project');
 const Rsvp = require('./Rsvp');
-const { resolveConfig } = require('prettier');
 
 User.hasMany(Project, {
   foreignKey: 'user_id',
